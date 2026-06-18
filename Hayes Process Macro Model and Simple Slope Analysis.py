@@ -6,8 +6,7 @@ import matplotlib.pyplot as plt
 
 def run_comprehensive_analysis(file_path):
     # 1. LOAD DATASET
-    print("Loading data...")
-    df = pd.read_csv(file_path)
+    df = pd.read_csv('Form Responses 1 - Form Responses 1.csv')
     
     # 2. IDENTIFY AND MAP VARIABLES
     # Dynamically locate specific columns based on substrings
